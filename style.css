@@ -387,19 +387,18 @@ font-size: 24px;
 /* footer section start */
 .footer{
   width: 1100px; 
-  height: 4
-  00px;
+  height: 400px;
   background-image: url(assets/handshake.jpg);
   background-size:cover;
   text-align: center;
-  margin: 20px auto;
+  margin: 0 auto;
   padding: 20px; 
 }
 .footer h3{
   font-size: 24px;
   font-weight: 600;
   color: #0D1321;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .footer p{
   font-size: 18px;
