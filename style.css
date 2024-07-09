@@ -384,3 +384,56 @@ font-size: 24px;
   cursor: pointer;
   padding-top: 20px;
 }
+/* footer section start */
+.footer{
+  width: 1100px; 
+  height: 4
+  00px;
+  background-image: url(assets/handshake.jpg);
+  background-size:cover;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px; 
+}
+.footer h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: #0D1321;
+  padding-top: 30px;
+}
+.footer p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #0D1321;
+  line-height: 25px;
+  padding: 10px;
+}
+#text{
+  width: 350px;
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+}
+.Submit{
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.last-part{
+  width: 1100px;
+  height: 70px;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.last-part p{
+    font-size: 18px;
+  font-weight: bold;
+  color: #0D1321;
+  line-height: 25px;
+  padding: 10px;
+}
+.last-img img{
+padding: 10px;
+}
