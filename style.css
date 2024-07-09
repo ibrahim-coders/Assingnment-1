@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -183,4 +184,203 @@ width: 50%;
 }
 .web-system-text a:hover{
   background-color: skyblue;
+}
+
+/* My Inspiration-section */
+.inspiration-section{
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.inspiration-section h3{
+   font-size: 24px;
+  font-weight: bold;
+  color: #0D1321;
+}
+.inspiration-section p{
+   font-size: 18px;
+  font-weight: 600;
+  color: #0D1321;
+  line-height: 25px;
+  padding: 20px 0;
+}
+.inspiration-video{
+  width: 600px;
+  height: 350px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   margin: 20px auto;
+   padding: 10px;
+   box-shadow: 10px;
+}
+
+/* my current Target section */
+.current-target{
+  width: 1100px;
+  
+  margin: 0 auto;
+  text-align: center;
+}
+.current-target-content{
+  width: 800px;
+  margin: 0 auto;
+}
+.current-target-content h3{
+ font-size: 24px;
+  font-weight: bold;
+  color: #0D1321;
+}
+.current-target-content p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #0D1321;
+  line-height: 25px;
+  padding: 20px 0;
+}
+.frontent{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 1000px;
+  height: 450px;
+  margin: 20px auto;
+  gap:20px;
+}
+.html{
+  width: 350px;
+  height: 300px;
+  background-color: oldlace;
+  text-align: start;
+  padding: 20px;
+}
+.html h3{
+   font-size: 24px;
+  font-weight: bold;
+  color: #0D1321;
+}
+.html p{
+    font-size: 18px;
+  font-weight: 400;
+  color: #0D1321;
+  line-height: 25px;
+
+}
+.html a{
+   font-size: 18px;
+  font-weight: bold;
+  color: #0D1321;
+  cursor: pointer;
+  padding-top: 20px;
+}
+.css{
+  width: 350px;
+  height: 300px;
+  background-color: #A0DEFF;
+  text-align: start;
+  padding: 20px;
+}
+.css h3{
+   font-size: 24px;
+  font-weight: 600;
+  color: #0D1321;
+}
+.css p{
+    font-size: 18px;
+  font-weight: 400;
+  color: #0D1321;
+  line-height: 25px;
+
+}
+.css a{
+   font-size: 18px;
+  font-weight: bold;
+  color: #0D1321;
+  cursor: pointer;
+  padding-top: 20px;
+}
+.javascript{
+  width: 350px;
+  height: 300px;
+  background-color: #FFF8DB;
+  text-align: start;
+  padding: 20px;
+}
+.javascript h3{
+   font-size: 24px;
+  font-weight: bold;
+  color: #0D1321;
+}
+.javascript p{
+    font-size: 18px;
+  font-weight: 400;
+  color: #0D1321;
+  line-height: 25px;
+
+}
+.javascript a{
+   font-size: 18px;
+  font-weight: bold;
+  color: #0D1321;
+  cursor: pointer;
+  padding-top: 20px;
+}
+
+/* next-target section*/
+.next-target{
+  width: 1100px;
+  height:850px;
+  margin: auto;
+  text-align: center;
+}
+
+.next-target-content{
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+.next-target-content h3{
+font-size: 24px;
+  font-weight: bold;
+  color: #0D1321;
+}
+.next-target-content p{
+   font-size: 18px;
+  font-weight: 600;
+  color: #0D1321;
+  line-height: 25px;
+}
+
+/* react-js div start*/
+.react-js{
+  width: 1100px;
+  height: 200px;
+  margin: 20px auto;
+  display: flex;
+  text-align: start;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  gap:20px;
+}
+.react-js img{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+.react-content h3{
+font-size: 24px;
+  font-weight: 600;
+  color: #0D1321;
+}
+.react-content p{
+ font-size: 18px;
+  font-weight: 400;
+  color: #0D1321;
+  line-height: 25px;
+}
+.react-content a{
+    font-size: 18px;
+  font-weight: 400;
+  color: #0D1321;
+  cursor: pointer;
+  padding-top: 20px;
 }
