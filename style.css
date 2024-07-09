@@ -7,12 +7,7 @@ box-sizing: border-box;
 body{
   font-family: "Open Sans", sans-serif;
 }
-/* header{
-  background-image: url(assets/Hero-bg.png);
-  max-width: 1440px;
-  height: ;
-} */
- /* nav-section */
+
 .nav{
   display: flex;
   justify-content: space-between;
@@ -72,5 +67,76 @@ background-repeat: no-repeat;
 }
 .cover-img-content a:hover{
   cursor: pointer;
+  background-color: skyblue;
+}
+
+ /* <!--why web development  section start --> */
+
+
+ .hero-section{
+  width: 1100px;
+  height: 1350px;
+  margin: 0 auto;
+  text-align: center;
+ }
+
+ /* hero-content-part */
+
+.hero-content{
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0;
+}
+.hero-content h2{
+ font-size: 40px;
+  font-weight: 600;
+  color: #0D1321;
+}
+.hero-content p{
+ font-size: 18px;
+  font-weight: 600;
+  color: #0D1321;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+/* .codinng Changw world div */
+.coding-change{
+  width: 900px;
+  height: 330px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.coding-text{
+  margin:auto;
+  width: 50%;
+  text-align: start;
+}
+.coding-text h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: #0D1321;
+}
+.coding-text p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #0D1321;
+  line-height: 22px;
+  padding: 20px 0;
+}
+.coding-text a{
+  font-size: 18px;
+  font-weight: 600;
+  color: #0D1321;
+  padding: 10px 15px;
+  border: 2px solid #0D1321;
+  cursor: pointer;
+  text-decoration: none;
+}
+.coding-text a:hover{
   background-color: skyblue;
 }
