@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+}
+/* header{
+  background-image: url(assets/Hero-bg.png);
+  max-width: 1440px;
+  height: ;
+} */
+ /* nav-section */
+.nav{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 30px 60px;
+}
+.nav h2{
+  font-size: 45px;
+  font-weight: bold;
+  color: #0D1321;
+}
+.nav a button{
+font-size: 20px;
+padding: 10px 15px;
+border-radius: 10px;
+color: #0D1321;
+cursor: pointer;
+}
+.nav a button:hover{
+  background-color: skyblue;
+}
+/* cover-img-part */
+.cover-img{
+  background-image: url(assets/Hero-bg.png);
+  background-size: cover;
+background-repeat: no-repeat;
+  max-width: 1440px;
+  height: 600px;
+}
+.cover-img-content{
+  width: 950px;
+  height: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
+.cover-img-content h2{
+  font-size: 48px;
+  font-weight: 600;
+  color: #0D1321;
+  padding-top: 40px;
+}
+.cover-img-content p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #0D1321;
+  padding-top: 20px;
+}
+.cover-img-content a{
+  font-size: 18px;
+  padding: 10px 15px;
+  color: #ffffff;
+  background-color: #0D1321;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.cover-img-content a:hover{
+  cursor: pointer;
+  background-color: skyblue;
+}
