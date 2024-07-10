@@ -44,6 +44,9 @@ background-repeat: no-repeat;
   margin: 0 auto;
   text-align: center;
 }
+.cover-img-content img{
+  padding-top: 20px;
+}
 .cover-img-content h2{
   font-size: 48px;
   font-weight: 600;
